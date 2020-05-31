@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/main.css"/>
+		<script src="./jquery-3.3.1/jquery-3.3.1.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<div class="wrapper">
+			<div class="head">
+				<div class="logo">调查问卷自动化审核系统</div>
+			</div>
+			<div class="frame1">
+				<div class="part1">
+					<a id="B1" href="javascript:void(0);" onclick="clk(this.id)">[B1]</a>&nbsp&nbsp
+					<a id="B2" href="javascript:void(0);" onclick="clk(this.id)">[B2]</a>&nbsp&nbsp
+					<a id="B3a" href="javascript:void(0);" onclick="clk(this.id)">[B3]</a>&nbsp&nbsp
+					<a id="B4" href="javascript:void(0);" onclick="clk(this.id)">[B4]</a>&nbsp&nbsp
+					<a id="B5" href="javascript:void(0);" onclick="clk(this.id)">[B5]</a>&nbsp&nbsp
+					<a id="B6" href="javascript:void(0);" onclick="clk(this.id)">[B6]</a>&nbsp&nbsp
+					<a id="C1" href="javascript:void(0);" onclick="clk(this.id)">[C1]</a>&nbsp&nbsp
+					<a id="C2" href="javascript:void(0);" onclick="clk(this.id)">[C2]</a>&nbsp&nbsp
+					<a id="C3" href="javascript:void(0);" onclick="clk(this.id)">[C3]</a>&nbsp&nbsp
+					<a id="C4" href="javascript:void(0);" onclick="clk(this.id)">[C4]</a>&nbsp&nbsp
+					<a id="C5" href="javascript:void(0);" onclick="clk(this.id)">[C5]</a>&nbsp&nbsp
+					<a id="C6" href="javascript:void(0);" onclick="clk(this.id)">[C6]</a>&nbsp&nbsp
+					<a id="C7" href="javascript:void(0);" onclick="clk(this.id)">[C7]</a>&nbsp&nbsp
+					<a id="C8" href="javascript:void(0);" onclick="clk(this.id)">[C8]</a>&nbsp&nbsp
+					<a id="C9" href="javascript:void(0);" onclick="clk(this.id)">[C9]</a>&nbsp&nbsp
+					<a id="C10" href="javascript:void(0);" onclick="clk(this.id)">[C10]</a>
+					<a id="C11" href="javascript:void(0);" onclick="clk(this.id)">[C11]</a>
+					<a id="C12" href="javascript:void(0);" onclick="clk(this.id)">[C12]</a>
+					<a id="D1" href="javascript:void(0);" onclick="clk(this.id)">[D1]</a>&nbsp&nbsp
+					<a id="D2" href="javascript:void(0);" onclick="clk(this.id)">[D2]</a>&nbsp&nbsp
+					<a id="D3" href="javascript:void(0);" onclick="clk(this.id)">[D3]</a>&nbsp&nbsp
+					<a id="D4" href="javascript:void(0);" onclick="clk(this.id)">[D4]</a>&nbsp&nbsp
+				</div>
+				<div class="part2" id="question">
+				</div>
+			</div>
+			<div class="frame2">
+				<div class="frame2_add">
+					<div id="content"></div>
+				</div>
+				<div class="name">
+					<span>当前题目为：</span>
+					<div id="num1">&nbsp</div>
+					<span>文本相似度：</span>
+					<div id="sim">&nbsp</div>
+					<span>目标文本为：</span>
+					<div id="num2">&nbsp</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
+<script src="./js/func.js" type="text/javascript" charset="utf-8"></script>
+<script src="./js/main.js" type="text/javascript" charset="utf-8"></script>
